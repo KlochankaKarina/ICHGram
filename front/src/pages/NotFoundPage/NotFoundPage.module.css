@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+
+.description p{
+    width: 465px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #737373;
+}
+
+.block{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

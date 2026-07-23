@@ -1,0 +1,28 @@
+.overlay {
+    position: fixed;
+    left: 245px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    position: relative;
+    background: #fff;
+    width: 913px;
+    height: 564px;
+    border-radius: 12px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+    height: 564px;
+}
+

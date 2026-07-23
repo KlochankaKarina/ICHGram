@@ -1,0 +1,13 @@
+.layout{
+    display: flex;
+    min-height: 100vh;
+}
+
+.content{
+    flex: 1;
+    padding: 24px;
+    position: relative;
+    min-height: 100vh;
+    width: calc(100%-245px);
+    margin-left: 245px;
+}

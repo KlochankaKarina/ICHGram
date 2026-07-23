@@ -1,0 +1,116 @@
+.home_posts {
+  display: grid;
+  grid-template-columns: repeat(2, 404px);
+  column-gap: 39px;
+  row-gap: 23px;
+  justify-content: center;
+}
+
+.image {
+  width: 404px;
+  height: 505.59px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.post_block {
+  width: 404px;
+  height: 746.62px;
+  border-bottom: 1.5px solid #dbdbdb;
+}
+
+.avatar {
+  width: 27.56px;
+  height: 27.56px;
+  border-radius: 50%;
+}
+
+.letter {
+  /* position: absolute; */
+  width: 27.56px;
+  height: 27.56px;
+  /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dfdbdb;
+  border-radius: 50%;
+}
+
+.user {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.username {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.time {
+  font-size: 14px;
+  font-weight: 400;
+  color: #737373;
+}
+
+.user_info,
+.time_block {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.punkt {
+  width: 4px;
+  height: 4px;
+}
+
+.reactions {
+  display: flex;
+  gap: 14.21px;
+  margin-top: 10.34px;
+}
+
+/* .reactions img{
+    width: 19.82px;
+    height: 19.82px;
+    display: block;
+    flex-shrink: 0;
+    object-fit: contain;
+} */
+.reactions img:hover {
+  cursor: pointer;
+}
+
+.likes_number,
+.caption {
+  font-size: 14px;
+}
+
+.caption {
+  display: flex;
+  gap: 10px;
+}
+
+.comments_block {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.all {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  color: #737373;
+  padding: 0;
+  margin: 0;
+}
+
+.all:hover {
+  cursor: pointer;
+}

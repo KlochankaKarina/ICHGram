@@ -1,0 +1,64 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.avatar,
+.fallbackAvatar {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.avatar {
+  object-fit: cover;
+}
+
+.fallbackAvatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #efefef;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+
+.username {
+  margin-right: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.time {
+  font-size: 12px;
+  color: #737373;
+}
+
+.message {
+  padding: 16px;
+  color: #737373;
+  font-size: 14px;
+  text-align: center;
+}

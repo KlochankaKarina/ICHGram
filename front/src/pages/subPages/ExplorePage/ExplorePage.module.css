@@ -1,0 +1,16 @@
+.explore_posts {
+  column-count: 3;
+  column-gap: 4px;
+  width: 962.97px;
+  margin: 0 auto;
+}
+
+.explore_post {
+  break-inside: avoid;
+  margin-bottom: 6px;
+}
+
+.explore_post img {
+  width: 100%;
+  display: block;
+}

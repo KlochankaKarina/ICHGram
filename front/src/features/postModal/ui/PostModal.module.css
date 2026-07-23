@@ -1,0 +1,160 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.modal {
+  position: relative;
+  background: #fff;
+  width: 1001.31px;
+  height: 722px;
+  display: flex;
+  margin-top: 47px;
+}
+
+.image {
+  width: 577.6px;
+  height: 722px;
+  object-fit: cover;
+}
+
+.content {
+  width: 410.15px;
+  padding-left: 13.56px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  height: 50.85px;
+  border-bottom: 1px solid #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 13.56px;
+}
+
+.middle {
+  display: flex;
+  margin-top: 14px;
+  justify-content: flex-start;
+  gap: 5px;
+  position: relative;
+}
+
+.middle_box {
+  height: 537.26px;
+}
+
+.reactions {
+  height: 46.61px;
+  display: flex;
+  align-items: center;
+  gap: 13.98px;
+}
+.reactions img:hover {
+  cursor: pointer;
+}
+
+.likes {
+  height: 42.37px;
+}
+
+.likes {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.comments_length {
+  font-size: 12.17px;
+  font-weight: 400;
+  color: #737373;
+}
+
+.count {
+  font-size: 11.86px;
+  font-weight: 600;
+}
+
+.days {
+  font-size: 12.17px;
+  font-weight: 400;
+  color: #737373;
+}
+
+.links {
+  position: relative;
+  height: 35.59px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  gap: 7.63px;
+}
+
+.selfie {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  left: 1.4px;
+  top: 1.5px;
+}
+
+.selfie_caption {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  right: 376px;
+  top: 1.2px;
+}
+
+.instagram_circle {
+  width: 35.59px;
+  height: 35.59px;
+  position: relative;
+}
+
+.caption {
+  width: 331.49px;
+}
+
+.circle {
+  background-color: rgb(192, 191, 191);
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 1.3px;
+}
+
+.circle_caption {
+  background-color: rgb(192, 191, 191);
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 1.3px;
+  top: 1.2px;
+}
+
+.three {
+  border: none;
+  background: transparent;
+}
+
+.three:hover {
+  cursor: pointer;
+}

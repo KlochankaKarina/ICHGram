@@ -1,0 +1,151 @@
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 32.01px;
+  align-items: flex-start;
+  margin-top: 85.92px;
+}
+
+.logo {
+  width: 380.31px;
+  height: 581.14px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  gap: 10px;
+}
+
+.sign_up {
+  width: 350px;
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  border: 1px solid #dbdbdb;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.btn {
+  font-weight: 600;
+  color: #0095f6;
+  border: none;
+  width: 65.53px;
+  background-color: transparent;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border: 1px solid #0095f6;
+}
+
+.form_content {
+  width: 350px;
+  min-height: 554px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   border: 1px solid #dbdbdb;
+   /* position: relative; */
+   padding-bottom: 30px;
+   box-sizing: border-box;
+}
+
+.or_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.ichgram {
+  width: 190px;
+  height: 106.87px;
+  margin: 0 auto;
+  margin-top: 30.5px;
+}
+
+.sign_btn {
+  margin-top: 26px;
+  width: 268px;
+  height: 32px;
+  color: white;
+  background-color: #0095f6;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+}
+
+.sign_btn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #0095f6;
+  border: 1px solid #0095f6;
+}
+
+.sign_btn:disabled {
+  background-color: #737373;
+  cursor: not-allowed;
+}
+
+.sign_btn:disabled:hover {
+  color: white;
+  cursor: not-allowed;
+  border: none;
+}
+
+.formchen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input{
+    width: 268px;
+    height: 38px;
+    border: 1px solid #DBDBDB;
+    background-color: #FAFAFA;
+    font-size: 12px;
+    font-weight: 400;
+    color: #737373;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+.input:focus{
+     border-color:  #0095f6;
+     outline: none;
+}
+
+.errors{
+    color: red;
+    font-size: 12px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.policy{
+    font-size: 12px;
+    font-weight: 400;
+    color: #737373;
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.bottom{
+    /* position: absolute; */
+    /* bottom: 40px; */
+    text-align: center;
+    margin-top: 24px;
+}

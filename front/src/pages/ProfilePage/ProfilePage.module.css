@@ -1,0 +1,169 @@
+.profile{
+    width: 930.98px;
+    margin: 0 auto;
+    /* border: 1px solid rgb(201, 201, 201); */
+    margin-top: 18px;
+}
+
+.logout{
+    height: 50px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    gap: 85.83px;
+}
+
+.links{
+    position: relative;
+    height: 168px;
+    width: 168px;
+    border-radius: 50%;
+}
+
+.selfie{
+    position: absolute;
+     height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    left: 9px;
+    top: 9px;
+}
+
+.letter{
+position: absolute;
+     height: 150px;
+    width: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfdbdb;
+    border-radius: 50%;
+}
+
+.selfie:hover{
+    cursor: pointer;
+}
+
+.username{
+    font-size: 19.84px;
+    font-weight: 400;
+}
+
+.edit{
+    width: 168px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #EFEFEF;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+
+.edit:hover{
+    color: white;
+    background-color: #0095f6;
+    cursor: pointer;
+}
+
+.right{
+    display: flex;
+    gap: 23px;
+    align-items: center;
+}
+
+.profile_description{
+    display: flex;
+    flex-direction: column;
+    gap: 18.5px;
+    margin-top: 20px;
+    font-size: 14px;
+    width: 434.51px;
+    height: 108px;
+}
+
+.site{
+    font-weight: 600;
+    color: #00376B;
+    gap: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.bio{
+  white-space: pre-wrap;
+  line-height: 18px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.posts{
+    margin-top: 76px;
+    display: grid;
+    grid-template-columns: repeat(3, 307.66px);
+    column-gap: 4px;
+}
+
+.post_img{
+    width: 307.66px;
+    height: 307.66px;
+    object-fit: cover;
+}
+
+.no{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.info{
+    display: flex;
+    gap: 100px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile_placeholder {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+
+.follow{
+    width: 132.13px;
+    height: 32px;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: #0095F6;
+    border: none;
+}
+
+.follow:hover{
+    color: #0095F6;
+    cursor: pointer;
+    border: 1px solid #0095F6;
+    background-color: transparent;
+}
+
+.message{
+    width: 132.13px;
+    height: 32px;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: #EFEFEF;
+    border: none;
+    font-weight: 600;
+}
+
+.message:hover{
+    background-color: #0095F6;
+    cursor: pointer;
+    color: white;
+}

@@ -1,0 +1,106 @@
+.sidebar{
+    width: 245px;
+    height: 100vh;
+    border-right: 1px solid #DBDBDB;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 25px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    z-index: 30;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    /* gap: 44px; */
+    margin-bottom: 60px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+.active{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.logo{
+    width: 97px;
+    height: 54.56px;
+    margin-top: 28px;
+    margin-bottom: 40px;
+     margin-left: 25px;
+}
+
+.fivicone{
+    width: 24px;
+    height: 24px;
+}
+
+.fivicone_selfie{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #DBDBDB;
+}
+
+.link_block{
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+    height: 34px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+.link_block_image{
+    display: flex;
+    align-items: center;
+     gap: 16px;
+    height: 34px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+.link_block:hover{
+    cursor: pointer;
+    background-color: #DBDBDB;
+}
+
+.link_block_image:hover{
+     cursor: pointer;
+    background-color: #DBDBDB;
+}
+
+.link_content{
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+}
+
+.circle{
+  background-color: rgb(192, 191, 191);
+   width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

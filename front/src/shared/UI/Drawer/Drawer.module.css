@@ -1,0 +1,32 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.45);
+
+  z-index: 10;
+}
+
+.drawer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 245px;
+
+  width: 400px;
+  padding: 28px 20px;
+
+  background-color: #ffffff;
+  border-right: 1px solid #dbdbdb;
+  border-radius: 0 16px 16px 0;
+
+  z-index: 20;
+
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.title {
+  margin: 0 0 28px;
+  font-size: 24px;
+}
